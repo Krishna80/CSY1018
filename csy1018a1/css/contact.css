@@ -1,0 +1,21 @@
+.container{
+  text-align: center;
+  padding:1%;
+
+
+  background: url("../images/sdg.jpg");
+  border-radius: 6px;
+  width: 50%;
+}
+input[type="text"],[type="password"]{
+width: 60%;
+  font-size: 20px;
+  margin-bottom: 20px;
+text-align: center;
+}
+@media (max-width:1200px){
+  input[type="text"],[type="password"]{
+    width:80%;
+    font-size: 13px;
+  }
+}

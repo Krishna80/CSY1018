@@ -1,0 +1,39 @@
+bucket{
+background:red;color: white;
+display: flex;flex direction:row;
+text-align: center;
+}
+
+
+
+
+.sidebar{
+  width:25%;
+  background: lightgreen;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Ranga';
+}
+
+.main{
+  width:75%;
+  float: left;
+  background: rgb(204, 255, 255);
+}
+.nepali{
+  justify-content: space-around;
+}
+
+
+
+   .main h2{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline;
+}
+  .article-img img{
+    justify-content: space-around;;no-wrap;
+    padding: 1%;
+  }
+  
