@@ -1,20 +1,21 @@
 
+
 body{
   background-image:url("../images/flower.jpg");
 color:black;
  font-family:  "Baloo Bhaina", cursive;
-
+ margin:0px 0px 0px 0px;
 }
-header h1{
+
+header h1 {
   font-size: 50px;
 text-shadow: 10px 10px 10px red;
 color: rgb(0, 255, 204);
 text-align: center;
 }
- header.dhoti img{
-  float:left;
-  width:x;
-}
+
+
+
 li{
   list-style: none;
 }
@@ -28,15 +29,14 @@ a{
 
 
 .menubar{
-
-padding-left: 0.5%;
-  margin-bottom: 0.5%;
+  margin:0;
   background: rgb(0, 255, 204);
+
 
 }
 
 .menubar ul{
-    display:flex;flex-direction: row;justify-content:space-around;;
+    display:flex;flex-direction: row; no-wrap;justify-content:space-around;
     text-decoration: none;
 
 }
@@ -44,10 +44,12 @@ padding-left: 0.5%;
     margin: 0.3% ;padding: 1.5% ;background:lightblue;flex-grow: 1; text-align:center;
     text-shadow: 10px,10px,10px;
 
+
 }
 .menubar ul li:hover{
     background: rgb(153, 102, 255);
-    border-radius: 10px;
+    border-radius: 20px;
+     
   }
   .menubar ul li ul{
   display:none; position:absolute; width:20%;
@@ -56,59 +58,44 @@ padding-left: 0.5%;
   display: block;
   margin:0.5%  0 0 0 0;
    background: rgb(0,255,204) ;
-   padding: 1%;
+   padding: 1%
+
 }
 
 
-            #box{
-              width:400px;
-              overflow: hidden;
 
-                }
+  .slider{
 
-                        #slider{
-                          position: relative;
-                          width: 1600px;
-                        animation-name: test1;
-                          animation-duration: 20s;
+  overflow: hidden;
 
-                        }
-                        #slider img{
-                          float: left;
+  width: 600px;
+  height: 300px;
+  margin:50px auto;
+  position: relative;
+  transition: transform 1s
+}
 
+  .img {
+    position: absolute;
+    width: 100%;
 
-                        }
-                        @keyframe test1{
-                          0%{
-                            left:0px;
-                          }
-                          20%{
-                            left:0px;
-                          }
-                          25%{
-                            left:-400px;
-                          }
-                          45%{
-                            left:-400px;
-                          }
-                          50%{
-                            left:-800px;
-                          }
-                          70%{
-                            left:-800px;
-                          }
-                          75%{
-                            left:-1200px;
-                          }
-                          95%{
-                            left:-1200px;
-                          }
-                          100%{
-                            left:-1600px;
-                          }
+    animation: creesh 35s infinite;
+  -webkit-animation: creesh 35s infinite;
+    opacity: 0;
 
+  }
+  @-webkit-keyframes creesh{
+    10%{opacity: 1}
+      45%{opacity: 0}
+}
+img:nth-child(0){animation-delay: 0s;-webkit-animation-delay: 0s;}
+img:nth-child(1){animation-delay: 5s;-webkit-animation-delay: 5s;}
+img:nth-child(2){animation-delay: 10s;-webkit-animation-delay: 10s;}
+img:nth-child(3){animation-delay: 15s;-webkit-animation-delay: 15s;}
+img:nth-child(3){animation-delay: 20s;-webkit-animation-delay: 20s;}
+img:nth-child(3){animation-delay: 25s;-webkit-animation-delay: 25s;}
+img:nth-child(3){animation-delay: 30s;-webkit-animation-delay: 30s;}
 
-                        }
 
 
 
@@ -158,6 +145,11 @@ right padding: 0;
   }
   section article{
     width:98%;
+    padding: 1%;
+  }
+  .slider{
+    width:96%;
+    padding:2%;
   }
 
   section,footer{

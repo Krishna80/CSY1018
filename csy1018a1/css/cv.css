@@ -1,4 +1,4 @@
-bucket{
+.bucket{
 background:red;color: white;
 display: flex;flex direction:row;
 text-align: center;
@@ -13,12 +13,14 @@ text-align: center;
   text-align: center;
   font-size: 25px;
   font-family: 'Ranga';
+  color: rgb(51, 153, 255);
 }
 
 .main{
   width:75%;
   float: left;
   background: rgb(204, 255, 255);
+
 }
 .nepali{
   justify-content: space-around;
@@ -32,8 +34,11 @@ text-align: center;
   color: black;
   text-decoration: underline;
 }
+
+
   .article-img img{
     justify-content: space-around;;no-wrap;
     padding: 1%;
+
+
   }
-  
