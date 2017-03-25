@@ -1,3 +1,11 @@
+.vanila{
+
+  background: linear-gradient( to right, red, blue, orange, green );
+  text-align: center;
+
+}
+
+
 .container{
   text-align: center;
   padding:1%;
@@ -5,17 +13,41 @@
 
   background: url("../images/sdg.jpg");
   border-radius: 6px;
-  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-input[type="text"],[type="password"]{
-width: 60%;
+.container Input textarea{
+
   font-size: 20px;
   margin-bottom: 20px;
 text-align: center;
+
 }
+.papa{
+
+  text-align: center;
+}
+.papa h3{
+
+  color:rgb(0, 255, 204);
+
+  text-align: center;
+
+}
+
+
+
 @media (max-width:1200px){
-  input[type="text"],[type="password"]{
-    width:80%;
+.container  input, textarea{
+    width: 100%;
     font-size: 13px;
+    flex-direction: column;
   }
-}
+  .papa,.map,.vanila{
+    flex-direction: column;
+    width: 100%;
+  }
+    .map iframe{
+      flex-direction: column;
+      width: 100%;
+    }
