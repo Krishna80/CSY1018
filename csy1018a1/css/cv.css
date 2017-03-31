@@ -49,8 +49,11 @@ border-color: blue;
   .article-img img{
     justify-content: space-around;;no-wrap;
     padding: 1%;
-
-
+    transition: transform 0.5s;
+  }
+  .article-img img:hover{
+    transform: scale(1.2);
+    white-space: pre-wrap;
   }
   @media (max-width:1200px){
     .bucket, .sidebar,.main{

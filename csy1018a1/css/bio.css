@@ -36,17 +36,38 @@ balti{
 }
 .jumli{
   background: rgb(0, 255, 204);
+  text-align: center;
 }
 
  .jumli p{
   text-align: left;
   color: black;
+  margin-left: 5px;
 
-  display: grid;
   margin-top: 10px;
  font-family: plaster;
- font-size: 30px;
- font-style: normal;
- margin-left: 20%;
- margin-right: 20%;
+ font-size: 20px;
+
+
+}
+.jumli img{
+  
+  transition: transform 0.5s, width 3s, height 3s;
+
+}
+ .jumli img:hover{
+
+  width: 250px;
+  height: 250px;
+
+
+}
+@media (max-width:1200px){
+
+
+
+  .jumli p, .jumli img{
+    flex-direction: column;
+    text-align: center;
+  }
 }

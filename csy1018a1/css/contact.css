@@ -12,25 +12,26 @@
 .container{
   text-align: center;
   padding:1%;
-
+  font-size: 20px;
 
   background: url("../images/sdg.jpg");
   border-radius: 6px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.container Input textarea{
+.container Input,textarea{
 
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
 text-align: center;
 
 }
+
 .papa{
 
   text-align: center;
 }
-.papa h3{
+.papa h2{
 
   color:rgb(0, 255, 204);
 
@@ -41,10 +42,16 @@ text-align: center;
 
 
 @media (max-width:1200px){
-.container  input, textarea{
+  .container{
+    width: 100;
+  }
+.container  input,textarea,label{
     width: 100%;
-    font-size: 13px;
+    font-size: 20px;
     flex-direction: column;
+  }
+  .container button{
+  font-size: 25px;
   }
   .papa,.map,.vanila{
     flex-direction: column;
