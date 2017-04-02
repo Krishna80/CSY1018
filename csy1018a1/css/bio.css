@@ -11,7 +11,7 @@ balti{
 }
 .mukhya h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
   background: lightblue;
   margin-left: 10%;
   margin-right: 10%;
@@ -19,18 +19,18 @@ balti{
   display: block;
 }
 .mukhya img{
-  width:200px;
-  height: 200px;
+  width:12.500em;
+  height: 12.500em;
 }
 .tiger{
   background: lightblue;
    text-align: center;
 
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
   margin-left: 30%;
   margin-right: 30%;
 
-  font-size: 25px;
+  font-size: 1.563em;
   padding: .5%;
 
 }
@@ -42,27 +42,27 @@ balti{
  .jumli p{
   text-align: left;
   color: black;
-  margin-left: 5px;
+  margin-left: 0.313em;
 
-  margin-top: 10px;
+  margin-top: 0.625em;
  font-family: plaster;
  font-size: 20px;
 
 
 }
 .jumli img{
-  
+
   transition: transform 0.5s, width 3s, height 3s;
 
 }
  .jumli img:hover{
 
-  width: 250px;
-  height: 250px;
+  width: 15.625em;
+  height: 15.625em;
 
 
 }
-@media (max-width:1200px){
+@media (max-width:112.500em){
 
 
 

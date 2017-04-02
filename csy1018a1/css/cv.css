@@ -14,7 +14,7 @@ border-color: blue;
 .sidebar{
   width:30%;
   background: lightgreen;
- font-size: 25px;
+ font-size: 1.563em;
 
   font-family: 'Ranga';
   color: rgb(51, 153, 255);
@@ -40,7 +40,7 @@ border-color: blue;
 
    .main h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
   color: black;
   text-decoration: underline;
 }
@@ -55,7 +55,7 @@ border-color: blue;
     transform: scale(1.2);
     white-space: pre-wrap;
   }
-  @media (max-width:1200px){
+  @media (max-width:75em){
     .bucket, .sidebar,.main{
       flex-direction: column;
       width: 100%;

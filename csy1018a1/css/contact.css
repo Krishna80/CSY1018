@@ -12,7 +12,7 @@
 .container{
   text-align: center;
   padding:1%;
-  font-size: 20px;
+  font-size: 1.250em;
 
   background: url("../images/sdg.jpg");
   border-radius: 6px;
@@ -21,8 +21,8 @@
 }
 .container Input,textarea{
 
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 1.875em;
+  margin-bottom: 1.250em;
 text-align: center;
 
 }
@@ -41,15 +41,17 @@ text-align: center;
 
 
 
-@media (max-width:1200px){
+@media (max-width:75em){
 
 .container  input,textarea,label{
     width: 100%;
-    font-size: 20px;
+    font-size: 1.250em;
     flex-direction: column;
   }
-  .container button{
-  font-size: 25px;
+  .container {
+  font-size: 1.563em;
+  margin-right: 5%;
+  margin-left: 5%;
   }
   .papa,.map,.vanila{
     flex-direction: column;
