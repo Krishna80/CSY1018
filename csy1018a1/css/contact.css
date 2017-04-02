@@ -42,9 +42,7 @@ text-align: center;
 
 
 @media (max-width:1200px){
-  .container{
-    width: 100;
-  }
+
 .container  input,textarea,label{
     width: 100%;
     font-size: 20px;
@@ -61,3 +59,4 @@ text-align: center;
       flex-direction: column;
       width: 100%;
     }
+  }

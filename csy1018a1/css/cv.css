@@ -3,7 +3,7 @@
 
 .bucket{
 color: white;
-display: flex;flex direction:row;
+display:flex; flex-direction: row;
 text-align: center;
 border-color: blue;
 }
@@ -47,7 +47,7 @@ border-color: blue;
 
 
   .article-img img{
-    justify-content: space-around;;no-wrap;
+    justify-content: space-around;
     padding: 1%;
     transition: transform 0.5s;
   }
