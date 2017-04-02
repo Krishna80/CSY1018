@@ -145,6 +145,7 @@ body{
         .menubar,  .menubar ul,.menubar ul li, .mukhya, .container{
             flex-direction: column;
             text-align: center;
+            font-size: 15px;
 
 
             }
@@ -155,12 +156,12 @@ body{
                 }
             section,footer{
            flex-direction: column;
-
+           font-size: 15px;
 
                         }
 
          .copyright,.contact{
            width:96%;margin-bottom: 3%;text-align: center;
-            font-size: 15px;
+
          }
        }
