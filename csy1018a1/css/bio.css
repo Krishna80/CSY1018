@@ -24,7 +24,7 @@ balti{
 }
 
  .jumli p,p1,p2,p3,p4,p5{
-  
+
   color: rgb(51, 102, 255);
   margin-left: 0.313em;
   text-decoration-style: solid;
@@ -38,12 +38,13 @@ balti{
   width: 200px;
   height: 200px;
   transition: transform 0.5s, width 3s, height 3s;
+  border-radius: 100px;
 
 }
  .khate img:hover{
-
-  width: 16.625em;
-  height: 16.625em;
+   border-radius: 150px;
+   width: 16.625em;
+   height: 16.625em;
 
 
 }

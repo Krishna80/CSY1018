@@ -24,7 +24,7 @@ body{
             }
 
     header img{
-      display: block;
+      position: absolute;
       max-width: 100%;
       max-height: 100%;
 
@@ -69,8 +69,9 @@ body{
                 .slider{
                   overflow: hidden;
                   height: 31.250em;
-                  margin:3.125em auto;
+                  /*margin:3.125em auto;*/
                   position: relative;
+
                       }
 
                   .img {
@@ -78,7 +79,7 @@ body{
                     animation: creesh 15s infinite;
                     animation: creesh 15s infinite;
                     opacity: 0;
-                    text-align: center;
+
                       }
           @keyframes creesh{
             10%{opacity: 1}
