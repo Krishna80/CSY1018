@@ -15,14 +15,14 @@ I made the wireframe and design it in photoshop.
 
 I made one repo on github name CSY1018 then i clone it into my local pc. After that I created different folder for css file and images. Also I made four html file name as index.html, cv.html, bio.html, contact.html.
  Then  I started to codding using Atom.
- 
+
  ##### Folder Description
- Here we have diffn folder for diffn file. CSS folder conatained all the css file.Images folder contained all the images used in website.
- 
+ Here we have different folder for different file. CSS folder conatained all the css file. Images folder contained all the images used in website.
+
  ------------
 
 
-## Folder contained
+## file contained
 
 ### HTML file
 
@@ -48,4 +48,3 @@ bio.css
 contact.css
 
 ```
-

@@ -14,8 +14,10 @@ body{
     font-size: 3.750em;
     text-shadow: 0.313em 0.313em 0.313em red;
     color: rgb(0, 255, 204);
+    position: relative;
     text-align: center;
     transition: transform 0.5s;
+
 
             }
             header h1:hover{
@@ -25,8 +27,8 @@ body{
 
     header img{
       position: absolute;
-      max-width: 100%;
-      max-height: 100%;
+      float: left;
+
 
 
               }
@@ -57,14 +59,18 @@ body{
 
                               }
             .menubar ul li ul{
-              display:none; position:absolute; width:20%;
+              display:none;
+              position:absolute;
+               width:20%;
                               }
               .menubar ul li:hover ul{
                 display: block;
                 margin:0.031em 0 0 0 ;
                 background: rgb(0,255,204) ;
                 padding: 1%;
+                
                 text-align: center;
+
                 }
                 .slider{
                   overflow: hidden;
@@ -120,6 +126,9 @@ body{
            flex-direction: column;
            font-size: 0.938em;
 
+                        }
+                      / .body{
+                          font-size: 20px;
                         }
 
          .copyright,.contact{
