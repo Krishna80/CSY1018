@@ -30,9 +30,6 @@ body{
 
 
               }
-
-
-
       li{
         list-style: none;
         }
@@ -40,18 +37,10 @@ body{
         text-decoration: none;
       }
 
-
-
-
-
-
       .menubar{
 
         /*background: rgb(0, 255, 204);*/
         width: 100%;
-
-
-
             }
 
       .menubar ul{
@@ -66,14 +55,9 @@ body{
             background: rgb(153, 102, 255);
             border-radius: 1.250em;
 
-
-
                               }
             .menubar ul li ul{
               display:none; position:absolute; width:20%;
-
-
-
                               }
               .menubar ul li:hover ul{
                 display: block;
@@ -82,22 +66,11 @@ body{
                 padding: 1%;
                 text-align: center;
                 }
-
-
-
                 .slider{
-
                   overflow: hidden;
-
                   height: 31.250em;
                   margin:3.125em auto;
                   position: relative;
-
-
-
-
-
-
                       }
 
                   .img {
@@ -106,13 +79,7 @@ body{
                     animation: creesh 15s infinite;
                     opacity: 0;
                     text-align: center;
-
-
-
-
-
                       }
-
           @keyframes creesh{
             10%{opacity: 1}
             45%{opacity: 0}
@@ -120,16 +87,13 @@ body{
     img:nth-child(0){animation-delay: 0s;animation-delay: 0s;}
     img:nth-child(1){animation-delay: 5s;animation-delay: 5s;}
     img:nth-child(2){animation-delay: 10s;animation-delay: 10s;}
-
-
-
         footer{
           display: flex;flex-direction: row;
           padding:0.3%;
           background: rgb(0, 255, 204);
           margin-top: 1.250em;
-          color: black;
-          font-size: 0.938em;
+          color: rgb(51, 102, 255);
+          font-size: 1.01em;
 
               }
               .copyright{
@@ -145,8 +109,6 @@ body{
         .menubar,  .menubar ul,.menubar ul li, .mukhya, .container{
             flex-direction: column;
             text-align: center;
-
-
             }
            .slider img{
             flex-direction: column;

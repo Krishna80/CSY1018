@@ -21,7 +21,7 @@
 }
 .container Input,textarea{
 
-  font-size: 1.875em;
+  font-size: 1.275em;
   margin-bottom: 1.250em;
 text-align: center;
 
@@ -49,9 +49,9 @@ text-align: center;
     flex-direction: column;
   }
   .container {
-  font-size: 1.563em;
-  margin-right: 5%;
-  margin-left: 5%;
+  font-size: 1.263em;
+
+
   }
   .papa,.map,.vanila{
     flex-direction: column;

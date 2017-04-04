@@ -5,23 +5,7 @@
 balti{
   background: lightgreen;
 }
-.mukhya{
-  color: black;
 
-}
-.mukhya h2{
-  text-align: center;
-  font-size: 1.875em;
-  background: lightblue;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 1%;
-  display: block;
-}
-.mukhya img{
-  width:12.500em;
-  height: 12.500em;
-}
 .tiger{
   background: lightblue;
    text-align: center;
@@ -29,7 +13,7 @@ balti{
   margin-bottom: 0.625em;
   margin-left: 30%;
   margin-right: 30%;
-
+  color: rgb(51, 102, 255);
   font-size: 1.563em;
   padding: .5%;
 
@@ -39,26 +23,27 @@ balti{
   text-align: center;
 }
 
- .jumli p{
-  text-align: left;
-  color: black;
+ .jumli p,p1,p2,p3,p4,p5{
+  
+  color: rgb(51, 102, 255);
   margin-left: 0.313em;
-
+  text-decoration-style: solid;
   margin-top: 0.625em;
- font-family: plaster;
+ font-family: font-family: 'Satisfy', cursive;;
  font-size: 20px;
 
 
 }
-.jumli img{
-
+.khate img{
+  width: 200px;
+  height: 200px;
   transition: transform 0.5s, width 3s, height 3s;
 
 }
- .jumli img:hover{
+ .khate img:hover{
 
-  width: 15.625em;
-  height: 15.625em;
+  width: 16.625em;
+  height: 16.625em;
 
 
 }
