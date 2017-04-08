@@ -1,5 +1,11 @@
 
 # **This is My Personal Portfolio**
+ 
+#### Full name: Krishna Karki
+
+#### UNID:16418530
+
+#### Live Url: krishna80.github.io/CSY1018/csy1018a1
 
 ## Before Getting Started
 
@@ -46,5 +52,41 @@ cv.css
 bio.css
 
 contact.css
+
+```
+
+### Images file
+
+```
+
+Krishna.png
+
+Krish.png
+
+hospital.jpg
+
+favicon.jpg
+
+logo.jpg
+
+sdg.jpg
+
+slc.jpg
+
+transfer.jpg
+
+transcript.jpg
+
+slccertificate.jpg
+
+11marks.jpg
+
+12marks.jpg
+
+cc.png
+
+flower.jpg
+
+logo.jpg
 
 ```
